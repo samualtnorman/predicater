@@ -1,0 +1,5 @@
+{
+	"extends": "..",
+	"include": [ "**/*" ],
+	"compilerOptions": { "types": [ "node", "@total-typescript/ts-reset", "babel-plugin-here/env" ] }
+}
