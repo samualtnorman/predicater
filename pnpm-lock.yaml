@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@samual/lib':
-        specifier: 0.11.1-abb4db3
-        version: 0.11.1-abb4db3
+        specifier: 0.11.1-688a62f
+        version: 0.11.1-688a62f
     devDependencies:
       '@samual/rollup-config':
         specifier: ^0.1.0
@@ -836,8 +836,8 @@ packages:
     resolution: {integrity: sha512-DW+Cx3RwmvSUvtpcZd7NqUCu4kzCqn/Bs5Ybl4GQSn9XF4hPud+zaEuODNc+g2uLt2jH+8bYuANQGJMaDnSCZQ==}
     engines: {node: ^18 || >=20}
 
-  '@samual/lib@0.11.1-abb4db3':
-    resolution: {integrity: sha512-K/EJCPUVwgP/b7SPrtV5wdC2FiggdtgUsyuayHaYTA7OvFqhpFOJcoHZ+yaLQcfXm+hDupmqG34xht4Tw8D4rg==}
+  '@samual/lib@0.11.1-688a62f':
+    resolution: {integrity: sha512-twRFUYyNrkxeE/6Bj9KwRmXfQzb1FmjHLimiEpQZVtc6qc/YVGYgcgBRQb034Wjzc/FcTcr56bwgMi5dsiBe8g==}
     engines: {node: ^18 || >=20}
 
   '@samual/rollup-config@0.1.0':
@@ -2099,7 +2099,7 @@ snapshots:
 
   '@samual/lib@0.10.1': {}
 
-  '@samual/lib@0.11.1-abb4db3': {}
+  '@samual/lib@0.11.1-688a62f': {}
 
   '@samual/rollup-config@0.1.0(@babel/core@7.24.6)(prettier@3.3.0)(rollup@4.18.0)':
     dependencies:

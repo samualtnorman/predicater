@@ -1,23 +1,23 @@
 {
-	"name": "typescript-template",
+	"name": "predicator",
 	"version": "0.0.0",
-	"description": "remember to update urls in this file",
+	"description": "A library of predicate functions and builders intended to be used with TypeScript.",
 	"keywords": [],
-	"homepage": "https://github.com/samualtnorman/typescript-project#readme",
+	"homepage": "https://github.com/samualtnorman/predicator#readme",
 	"bugs": {
-		"url": "https://github.com/samualtnorman/typescript-project/issues",
+		"url": "https://github.com/samualtnorman/predicator/issues",
 		"email": "me@samual.uk"
 	},
 	"license": "MIT",
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
-	"repository": "github:samualtnorman/typescript-template",
+	"repository": "github:samualtnorman/predicator",
 	"type": "module",
 	"exports": {
 		"./*": "./*.js",
 		"./*.js": "./*.js"
 	},
 	"dependencies": {
-		"@samual/lib": "0.11.1-abb4db3"
+		"@samual/lib": "0.11.1-688a62f"
 	},
 	"devDependencies": {
 		"@samual/rollup-config": "^0.1.0",
