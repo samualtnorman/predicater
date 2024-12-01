@@ -1,1 +1,2 @@
-export const isFunction = (value: unknown): value is (...args: any[]) => unknown => typeof value == `function`
+export const isFunction = <TArgs extends any[] = any[]>(value: unknown): value is (...args: TArgs) =>
+	unknown => typeof value == `function`
