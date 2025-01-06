@@ -1,5 +1,5 @@
 import type { Key } from "@samual/lib"
-import { Predicate, PredicateType } from "."
+import type { Predicate, PredicateType } from "."
 import { isRecord } from "./isRecord"
 
 export const ObjectSchema = <T extends Record<Key, Predicate<any>>>(schema: T) =>

@@ -1,5 +1,11 @@
 {
 	"extends": "..",
 	"include": [ "**/*" ],
-	"compilerOptions": { "types": [ "node", "@total-typescript/ts-reset", "babel-plugin-here/env" ] }
+	"compilerOptions": {
+		"declaration": true,
+		"outDir": "../dist",
+		"types": [ "node", "@total-typescript/ts-reset", "babel-plugin-here/env" ],
+		"isolatedDeclarations": true,
+		"checkJs": false
+	}
 }
