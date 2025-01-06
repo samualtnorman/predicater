@@ -1,5 +1,5 @@
 {
-	"name": "predicator",
+	"name": "predicates",
 	"version": "0.0.0",
 	"description": "A library of predicate functions and builders intended to be used with TypeScript.",
 	"keywords": [],
